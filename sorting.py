@@ -3,7 +3,7 @@ ROCHESTER_LONGITUDE = -77.6088
 
 """
 Given a csv file containing the following header:
-index,name,url,street_address,city,state,zip_code,country,latitude,longitude
+index,name,url,street_address,city,state,zip_code,country,hours,latitude,longitude
 
 Return a list of tuples containing only the street_address, latitude, and longitude.
 """
