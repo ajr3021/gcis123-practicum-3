@@ -31,7 +31,6 @@ Note: The differences should be in absolute value
 def sort_by_latitude_longitude(value):
     return abs(ROCHESTER_LATITUDE - value[1]) + abs(ROCHESTER_LONGITUDE - value[2])
 
-
 def main():
     data = get_data("data/subway.csv")
     # sort the data
